@@ -1,0 +1,852 @@
+[
+  {
+    "id": 1,
+    "heading": "Smartphone XYZ",
+    "price": "$699.99",
+    "src": "product_1",
+    "category": "Phones",
+    "description": "A high-end smartphone with a sleek design and powerful performance.",
+    "specifications": {
+      "Type": "Smartphone",
+      "Color": "Black",
+      "Material": "Aluminum",
+      "Brand": "XYZ"
+    },
+    "warranty": "2 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "ElectroWorld",
+      "rating": "4.5/5",
+      "location": "New York, USA"
+    }
+  },
+  {
+    "id": 2,
+    "heading": "Tablet Pro 12",
+    "price": "$799.00",
+    "src": "product_2",
+    "category": "Tablets",
+    "description": "A high-resolution tablet with advanced features for professionals.",
+    "specifications": {
+      "Type": "Tablet",
+      "Color": "Silver",
+      "Material": "Glass",
+      "Brand": "ProTech"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "TechGiant",
+      "rating": "4.7/5",
+      "location": "San Francisco, USA"
+    }
+  },
+  {
+    "id": 3,
+    "heading": "Fitness Smartwatch",
+    "price": "$199.99",
+    "src": "product_3",
+    "category": "Smartphones",
+    "description": "A smartwatch designed to track your fitness goals and monitor health.",
+    "specifications": {
+      "Type": "Smartwatch",
+      "Color": "Blue",
+      "Material": "Silicone",
+      "Brand": "FitTech"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "WearableTech",
+      "rating": "4.6/5",
+      "location": "Chicago, USA"
+    }
+  },
+  {
+    "id": 4,
+    "heading": "iPhone 14 Pro Max",
+    "price": "$1099.00",
+    "src": "product_4",
+    "category": "iPhone",
+    "description": "The latest iPhone with cutting-edge features and high performance.",
+    "specifications": {
+      "Type": "Smartphone",
+      "Color": "Space Gray",
+      "Material": "Glass",
+      "Brand": "Apple"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "AppleStore",
+      "rating": "4.8/5",
+      "location": "Cupertino, USA"
+    }
+  },
+  {
+    "id": 5,
+    "heading": "Gaming Laptop Ultra",
+    "price": "$1499.00",
+    "src": "product_5",
+    "category": "Laptops",
+    "description": "A powerful gaming laptop with high performance and advanced graphics.",
+    "specifications": {
+      "Type": "Laptop",
+      "Color": "Black",
+      "Material": "Aluminum",
+      "Brand": "GameMaster"
+    },
+    "warranty": "2 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "TechArena",
+      "rating": "4.7/5",
+      "location": "Los Angeles, USA"
+    }
+  },
+  {
+    "id": 6,
+    "heading": "Motherboard Z790",
+    "price": "$299.99",
+    "src": "product_1",
+    "category": "Components",
+    "description": "A high-performance motherboard for building powerful PCs.",
+    "specifications": {
+      "Type": "Motherboard",
+      "Color": "Black",
+      "Material": "PCB",
+      "Brand": "Gigabyte"
+    },
+    "warranty": "3 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "PCPartsPro",
+      "rating": "4.5/5",
+      "location": "Austin, USA"
+    }
+  },
+  {
+    "id": 7,
+    "heading": "Antivirus Software Pro",
+    "price": "$49.99",
+    "src": "product_2",
+    "category": "Software",
+    "description": "Advanced antivirus software with real-time protection and firewall.",
+    "specifications": {
+      "Type": "Software",
+      "Color": "N/A",
+      "Material": "Digital",
+      "Brand": "SecureSoft"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Digital delivery",
+      "returnPolicy": "14-day return policy"
+    },
+    "sellerProfile": {
+      "name": "SoftTech",
+      "rating": "4.4/5",
+      "location": "Seattle, USA"
+    }
+  },
+  {
+    "id": 8,
+    "heading": "Smartphone Stand",
+    "price": "$29.99",
+    "src": "product_3",
+    "category": "Phones & PDAs",
+    "description": "A versatile stand for smartphones and tablets with adjustable angles.",
+    "specifications": {
+      "Type": "Stand",
+      "Color": "White",
+      "Material": "Plastic",
+      "Brand": "TechStand"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "GadgetHub",
+      "rating": "4.6/5",
+      "location": "Miami, USA"
+    }
+  },
+  {
+    "id": 9,
+    "heading": "DSLR Camera EOS",
+    "price": "$899.99",
+    "src": "product_4",
+    "category": "Cameras",
+    "description": "A professional DSLR camera with high-resolution imaging and advanced features.",
+    "specifications": {
+      "Type": "Camera",
+      "Color": "Black",
+      "Material": "Plastic",
+      "Brand": "Canon"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "CameraWorld",
+      "rating": "4.7/5",
+      "location": "San Diego, USA"
+    }
+  },
+  {
+    "id": 10,
+    "heading": "Mechanical Keyboard RGB",
+    "price": "$129.99",
+    "src": "product_5",
+    "category": "Keyboards",
+    "description": "A mechanical keyboard with customizable RGB backlighting and tactile keys.",
+    "specifications": {
+      "Type": "Keyboard",
+      "Color": "Black",
+      "Material": "Plastic",
+      "Brand": "KeyTech"
+    },
+    "warranty": "2 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "TechGears",
+      "rating": "4.6/5",
+      "location": "Boston, USA"
+    }
+  },
+  {
+    "id": 11,
+    "heading": "Smartphone Case",
+    "price": "$19.99",
+    "src": "product_1",
+    "category": "Phones",
+    "description": "A durable smartphone case to protect your device from drops and scratches.",
+    "specifications": {
+      "Type": "Case",
+      "Color": "Black",
+      "Material": "Silicone",
+      "Brand": "CaseMaster"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "CaseDepot",
+      "rating": "4.5/5",
+      "location": "Dallas, USA"
+    }
+  },
+  {
+    "id": 12,
+    "heading": "Tablet Keyboard",
+    "price": "$89.99",
+    "src": "product_2",
+    "category": "Tablets",
+    "description": "A compact keyboard designed for tablets with comfortable key travel.",
+    "specifications": {
+      "Type": "Keyboard",
+      "Color": "Gray",
+      "Material": "Plastic",
+      "Brand": "TypePad"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "KeyboardCentral",
+      "rating": "4.6/5",
+      "location": "Philadelphia, USA"
+    }
+  },
+  {
+    "id": 13,
+    "heading": "Smartphone Charger",
+    "price": "$24.99",
+    "src": "product_3",
+    "category": "Smartphones",
+    "description": "A fast-charging smartphone charger compatible with most devices.",
+    "specifications": {
+      "Type": "Charger",
+      "Color": "White",
+      "Material": "Plastic",
+      "Brand": "ChargeTech"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "ChargeStore",
+      "rating": "4.7/5",
+      "location": "Houston, USA"
+    }
+  },
+  {
+    "id": 14,
+    "heading": "iPhone Case Leather",
+    "price": "$39.99",
+    "src": "product_4",
+    "category": "iPhone",
+    "description": "A premium leather case for iPhone providing both style and protection.",
+    "specifications": {
+      "Type": "Case",
+      "Color": "Brown",
+      "Material": "Leather",
+      "Brand": "Apple"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "AppleStore",
+      "rating": "4.8/5",
+      "location": "Cupertino, USA"
+    }
+  },
+  {
+    "id": 15,
+    "heading": "Laptop Cooling Pad",
+    "price": "$49.99",
+    "src": "product_5",
+    "category": "Laptops",
+    "description": "A cooling pad designed to keep your laptop cool during intense use.",
+    "specifications": {
+      "Type": "Cooling Pad",
+      "Color": "Black",
+      "Material": "Metal",
+      "Brand": "CoolTech"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "LaptopCare",
+      "rating": "4.5/5",
+      "location": "Atlanta, USA"
+    }
+  },
+  {
+    "id": 16,
+    "heading": "RAM 16GB DDR4",
+    "price": "$79.99",
+    "src": "product_1",
+    "category": "Components",
+    "description": "High-speed 16GB DDR4 RAM for smooth multitasking and gaming.",
+    "specifications": {
+      "Type": "RAM",
+      "Color": "Black",
+      "Material": "Silicon",
+      "Brand": "Corsair"
+    },
+    "warranty": "3 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "MemoryMasters",
+      "rating": "4.6/5",
+      "location": "Denver, USA"
+    }
+  },
+  {
+    "id": 17,
+    "heading": "Office Suite Software",
+    "price": "$99.99",
+    "src": "product_2",
+    "category": "Software",
+    "description": "Complete office suite software with word processing, spreadsheets, and more.",
+    "specifications": {
+      "Type": "Software",
+      "Color": "N/A",
+      "Material": "Digital",
+      "Brand": "OfficePro"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Digital delivery",
+      "returnPolicy": "14-day return policy"
+    },
+    "sellerProfile": {
+      "name": "SoftwareDepot",
+      "rating": "4.5/5",
+      "location": "Seattle, USA"
+    }
+  },
+  {
+    "id": 18,
+    "heading": "Wireless Charging Pad",
+    "price": "$34.99",
+    "src": "product_3",
+    "category": "Phones & PDAs",
+    "description": "A sleek wireless charging pad compatible with most smartphones.",
+    "specifications": {
+      "Type": "Charging Pad",
+      "Color": "Black",
+      "Material": "Plastic",
+      "Brand": "ChargePro"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "ChargeStation",
+      "rating": "4.6/5",
+      "location": "Las Vegas, USA"
+    }
+  },
+  {
+    "id": 19,
+    "heading": "Action Camera 4K",
+    "price": "$249.99",
+    "src": "product_4",
+    "category": "Cameras",
+    "description": "A compact action camera with 4K video recording and waterproof capabilities.",
+    "specifications": {
+      "Type": "Action Camera",
+      "Color": "Black",
+      "Material": "Plastic",
+      "Brand": "ActionCam"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "AdventureTech",
+      "rating": "4.7/5",
+      "location": "Phoenix, USA"
+    }
+  },
+  {
+    "id": 20,
+    "heading": "Gaming Keyboard Mechanical",
+    "price": "$149.99",
+    "src": "product_5",
+    "category": "Keyboards",
+    "description": "A high-performance mechanical keyboard with customizable RGB lighting.",
+    "specifications": {
+      "Type": "Keyboard",
+      "Color": "Black",
+      "Material": "Plastic",
+      "Brand": "GameKeys"
+    },
+    "warranty": "2 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "GamingGear",
+      "rating": "4.6/5",
+      "location": "San Jose, USA"
+    }
+  },
+  {
+    "id": 21,
+    "heading": "Smartphone Screen Protector",
+    "price": "$15.99",
+    "src": "product_1",
+    "category": "Phones",
+    "description": "A high-quality screen protector to keep your smartphone display scratch-free.",
+    "specifications": {
+      "Type": "Screen Protector",
+      "Color": "Clear",
+      "Material": "Tempered Glass",
+      "Brand": "ProtectTech"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "ScreenShield",
+      "rating": "4.4/5",
+      "location": "Austin, USA"
+    }
+  },
+  {
+    "id": 22,
+    "heading": "Tablet Sleeve",
+    "price": "$29.99",
+    "src": "product_2",
+    "category": "Tablets",
+    "description": "A stylish and protective sleeve for your tablet.",
+    "specifications": {
+      "Type": "Sleeve",
+      "Color": "Black",
+      "Material": "Neoprene",
+      "Brand": "TabletGuard"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "TabletShop",
+      "rating": "4.5/5",
+      "location": "Chicago, USA"
+    }
+  },
+  {
+    "id": 23,
+    "heading": "Bluetooth Earbuds",
+    "price": "$59.99",
+    "src": "product_3",
+    "category": "Smartphones",
+    "description": "Wireless Bluetooth earbuds with noise cancellation and long battery life.",
+    "specifications": {
+      "Type": "Earbuds",
+      "Color": "White",
+      "Material": "Plastic",
+      "Brand": "SoundPro"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "AudioTech",
+      "rating": "4.6/5",
+      "location": "New York, USA"
+    }
+  },
+  {
+    "id": 24,
+    "heading": "iPhone Wireless Charger",
+    "price": "$34.99",
+    "src": "product_4",
+    "category": "iPhone",
+    "description": "A convenient wireless charger compatible with iPhones.",
+    "specifications": {
+      "Type": "Charger",
+      "Color": "White",
+      "Material": "Plastic",
+      "Brand": "Apple"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "AppleStore",
+      "rating": "4.8/5",
+      "location": "Cupertino, USA"
+    }
+  },
+  {
+    "id": 25,
+    "heading": "Portable SSD 1TB",
+    "price": "$149.99",
+    "src": "product_5",
+    "category": "Laptops",
+    "description": "A high-speed portable SSD with 1TB storage capacity.",
+    "specifications": {
+      "Type": "SSD",
+      "Color": "Gray",
+      "Material": "Aluminum",
+      "Brand": "SpeedDrive"
+    },
+    "warranty": "3 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "StorageMasters",
+      "rating": "4.7/5",
+      "location": "Los Angeles, USA"
+    }
+  },
+  {
+    "id": 26,
+    "heading": "Graphics Card RTX 3080",
+    "price": "$699.99",
+    "src": "product_1",
+    "category": "Components",
+    "description": "A high-performance graphics card for gaming and professional work.",
+    "specifications": {
+      "Type": "Graphics Card",
+      "Color": "Black",
+      "Material": "Metal",
+      "Brand": "NVIDIA"
+    },
+    "warranty": "2 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "PCPartsPro",
+      "rating": "4.6/5",
+      "location": "San Francisco, USA"
+    }
+  },
+  {
+    "id": 27,
+    "heading": "VPN Subscription 1 Year",
+    "price": "$79.99",
+    "src": "product_2",
+    "category": "Software",
+    "description": "A one-year subscription to a top-rated VPN service for online privacy.",
+    "specifications": {
+      "Type": "Subscription",
+      "Color": "N/A",
+      "Material": "Digital",
+      "Brand": "SecureVPN"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Digital delivery",
+      "returnPolicy": "14-day return policy"
+    },
+    "sellerProfile": {
+      "name": "VPNZone",
+      "rating": "4.5/5",
+      "location": "New York, USA"
+    }
+  },
+  {
+    "id": 28,
+    "heading": "Smartphone Docking Station",
+    "price": "$49.99",
+    "src": "product_3",
+    "category": "Phones & PDAs",
+    "description": "A stylish docking station for smartphones with charging and data transfer capabilities.",
+    "specifications": {
+      "Type": "Docking Station",
+      "Color": "Silver",
+      "Material": "Metal",
+      "Brand": "DockTech"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "DockMasters",
+      "rating": "4.6/5",
+      "location": "San Diego, USA"
+    }
+  },
+  {
+    "id": 29,
+    "heading": "Mirrorless Camera A7",
+    "price": "$1299.00",
+    "src": "product_4",
+    "category": "Cameras",
+    "description": "A high-quality mirrorless camera with advanced features for professional photography.",
+    "specifications": {
+      "Type": "Mirrorless Camera",
+      "Color": "Black",
+      "Material": "Metal",
+      "Brand": "Sony"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "PhotoPros",
+      "rating": "4.8/5",
+      "location": "Seattle, USA"
+    }
+  },
+  {
+    "id": 30,
+    "heading": "Mechanical Gaming Mouse",
+    "price": "$59.99",
+    "src": "product_5",
+    "category": "Keyboards",
+    "description": "A precision gaming mouse with customizable buttons and RGB lighting.",
+    "specifications": {
+      "Type": "Mouse",
+      "Color": "Black",
+      "Material": "Plastic",
+      "Brand": "GameTech"
+    },
+    "warranty": "2 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "GamingGear",
+      "rating": "4.6/5",
+      "location": "San Jose, USA"
+    }
+  },
+  {
+    "id": 31,
+    "heading": "Smartphone Screen Cleaner",
+    "price": "$12.99",
+    "src": "product_1",
+    "category": "Phones",
+    "description": "A screen cleaner kit for maintaining a spotless display on your smartphone.",
+    "specifications": {
+      "Type": "Cleaner Kit",
+      "Color": "Blue",
+      "Material": "Liquid & Cloth",
+      "Brand": "CleanTech"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "CleanStore",
+      "rating": "4.4/5",
+      "location": "Dallas, USA"
+    }
+  },
+  {
+    "id": 32,
+    "heading": "Tablet Stand Adjustable",
+    "price": "$39.99",
+    "src": "product_2",
+    "category": "Tablets",
+    "description": "An adjustable stand for tablets with multiple viewing angles.",
+    "specifications": {
+      "Type": "Stand",
+      "Color": "Gray",
+      "Material": "Plastic",
+      "Brand": "StandTech"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "StandDepot",
+      "rating": "4.5/5",
+      "location": "Chicago, USA"
+    }
+  },
+  {
+    "id": 33,
+    "heading": "Bluetooth Speaker Portable",
+    "price": "$89.99",
+    "src": "product_3",
+    "category": "Smartphones",
+    "description": "A portable Bluetooth speaker with powerful sound and long battery life.",
+    "specifications": {
+      "Type": "Speaker",
+      "Color": "Black",
+      "Material": "Plastic",
+      "Brand": "SoundTech"
+    },
+    "warranty": "1 year",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "AudioWorld",
+      "rating": "4.6/5",
+      "location": "Miami, USA"
+    }
+  },
+  {
+    "id": 34,
+    "heading": "High-Resolution Monitor 27\"",
+    "price": "$349.99",
+    "src": "product_4",
+    "category": "Laptops",
+    "description": "A 27-inch high-resolution monitor ideal for gaming and professional work.",
+    "specifications": {
+      "Type": "Monitor",
+      "Color": "Black",
+      "Material": "Plastic & Glass",
+      "Brand": "VisionTech"
+    },
+    "warranty": "2 years",
+    "shoppingInfo": {
+      "availability": "In Stock",
+      "shipping": "Free shipping on orders over $50",
+      "returnPolicy": "30-day return policy"
+    },
+    "sellerProfile": {
+      "name": "VisionStore",
+      "rating": "4.7/5",
+      "location": "Boston, USA"
+    }
+  }
+]

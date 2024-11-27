@@ -1,0 +1,818 @@
+html {
+  overflow-x: hidden;
+}
+
+.slick-track {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.carousel-indicators button {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50%;
+}
+
+.header {
+  transition: all 0.3s ease;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.banner .slide_box {
+  height: 500px;
+}
+
+.swipe_wiper {
+  width: 33.33%;
+}
+
+.header {
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.icons a {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.show {
+  background-color: rgb(255, 255, 255);
+  max-height: 100%;
+  width: 100%;
+  padding: 25px;
+  padding-top: 0;
+  box-shadow: 1px 4px 2px 2px gray;
+}
+
+.page_image {
+  aspect-ratio: 3 / 3;
+  /* Ensures a square aspect ratio */
+  -o-object-fit: contain;
+  object-fit: contain;
+  /* Scales the image to fit within the element */
+  width: 100%;
+  /* Ensure the image takes up the full width of its container */
+  height: auto;
+  /* Maintain the aspect ratio */
+  /* mix-blend-mode: color-burn; Uncomment if needed */
+}
+
+.card {
+  /* padding: 20px 0; */
+
+  aspect-ratio: 3 / 3;
+  /* Ensures a square aspect ratio */
+  -o-object-fit: contain;
+  object-fit: contain;
+  /* Scales the image to fit within the element */
+  width: 100%;
+  /* Ensure the image takes up the full width of its container */
+  height: auto;
+  /* Maintain the aspect ratio */
+  /* mix-blend-mode: color-burn; Uncomment if needed */
+}
+
+/*                                        product                            */
+.card_imgs_top{
+  aspect-ratio: 1.5/2;
+  object-fit: cover;
+}
+
+.container .card-title {
+  font-size: 15px;
+}
+
+.container .product {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.container .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+
+/* overlay  */
+.pro_heading {
+  position: relative;
+  background-image: url('./assets/image/Main-Banner-1-1903x600.jpg');
+  /* Update with the correct path */
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000A6;
+  z-index: 1;
+}
+
+.overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 2550, 0.5);
+  z-index: 0;
+}
+
+.list_data {
+  list-style: none;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.loader_head {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: regba(0, 0, 0, 0.3)
+}
+
+.loader {
+  /* Center vertically */
+  height: 100px;
+  /* Full viewport height */
+  width: 100px;
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid #3498db;
+  /* Blue */
+  border-radius: 50%;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*  ---------------------------------------
+-------------------footer------------------
+-------------------------------------------  */
+
+.footer {
+  background-color: #343a40;
+  color: white;
+}
+
+.footer a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 320px) {
+    table {
+        font-size: 11.5px; 
+    }
+    td img {
+        display: block; 
+    }
+    td, th {
+        padding: 0.2rem;
+    }
+    .table thead {
+        font-size: 8px; 
+    }
+    .btn {
+        font-size: 8px; 
+        padding: 0.3rem;
+    }
+}
+/* Desktop screens 1920px */
+@media (max-width: 1920px) {
+    table {
+        font-size: 16px;
+    }
+    td img {
+        width: 120px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 0.6rem;
+    }
+}
+
+/* Large screens 1400px */
+@media (max-width: 1400px) {
+    table {
+        font-size: 14px;
+    }
+    td img {
+        width: 100px;
+    }
+    .btn {
+        font-size: 13px;
+        padding: 0.5rem;
+    }
+}
+
+/* Medium screens 1200px */
+@media (max-width: 1200px) {
+    table {
+        font-size: 13px;
+    }
+    td img {
+        width: 90px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 0.4rem;
+    }
+}
+
+/* Tablets 992px */
+@media (max-width: 992px) {
+    table {
+        font-size: 12px;
+    }
+    td img {
+        width: 80px;
+    }
+    .btn {
+        font-size: 11px;
+        padding: 0.3rem;
+    }
+}
+
+/* Small tablets 768px */
+@media (max-width: 768px) {
+    table {
+        font-size: 11px;
+    }
+    td img {
+        width: 70px;
+    }
+    .btn {
+        font-size: 10px;
+        padding: 0.2rem;
+    }
+}
+
+/* Large phones 575px */
+@media (max-width: 575px) {
+    table {
+        font-size: 10px;
+    }
+    td img {
+        width: 60px;
+    }
+    td, th {
+        padding: 0.3rem;
+    }
+    .btn {
+        font-size: 9px;
+        padding: 0.2rem;
+    }
+    .input-group {
+        width: 100px;
+    }
+}
+
+/* Small phones 375px */
+@media (max-width: 375px) {
+    table {
+        font-size: 9px;
+    }
+    td img {
+        width: 50px;
+    }
+    td, th {
+        padding: 0.2rem;
+    }
+    .btn {
+        font-size: 8px;
+        padding: 0.2rem;
+    }
+    .input-group {
+        width: 80px;
+    }
+}
+
+/* Very small screens 320px */
+@media (max-width: 320px) {
+    table {
+        font-size: 8px;
+    }
+    td img {
+        width: 40px;
+    }
+    td, th {
+        padding: 0.1rem;
+    }
+    .btn {
+        font-size: 7px;
+        padding: 0.1rem;
+    }
+    .input-group {
+        width: 70px;
+    }
+    
+}
+.product-cards {
+    padding: 10px; /* Add padding around the card container */
+}
+
+.product-card {
+    border-bottom: 1px solid #dee2e6; /* Card border */
+   
+    padding: 15px; /* Inner padding */
+    margin-bottom: 15px; /* Space between cards */
+    
+}
+
+.product-card img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded image corners */
+}
+
+.product-card div {
+    margin-bottom: 8px; /* Space between text elements */
+    font-size: 20px; /* Base font size */
+}
+
+.product-card strong {
+    font-weight: bold; /* Make labels bold */
+}
+
+.text-center {
+    text-align: center; /* Center align text */
+}
+
+/* Media Queries */
+@media (max-width: 375px) {
+    .product-card {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+    
+    .product-card div {
+        font-size: 12px; /* Smaller font size */
+    }
+}
+
+@media (max-width: 320px) {
+    .product-card {
+        padding: 8px; /* Even less padding */
+    }
+
+    .product-card div {
+        font-size: 11px; /* Further reduce font size */
+    }
+
+    .product-card img {
+        max-width: 80%; /* Adjust image size */
+    }
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1920px) {
+  .header {
+    height: 90px;
+    font-size: 1.2rem;
+  }
+
+  .banner_box {
+    padding: 0 15px;
+  }
+
+  .banner .slide_box {
+    height: 600px;
+  }
+
+  .product .container .card {
+    height: auto;
+  }
+
+  .product_page .card {
+    height: auto;
+  }
+
+  .container .card-title {
+    font-size: 18px
+  }
+
+  .container .product {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .box {
+    width: 40px;
+    height: 40px;
+  }
+  .product_ .card{
+    aspect-ratio: 2.6/4;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .header {
+    height: 80px;
+    font-size: 1.1rem;
+  }
+
+  .banner_box {
+    padding: 0 10px;
+  }
+
+  .banner .slide_box {
+    height: 550px;
+  }
+
+  .product .container .card {
+    height: auto;
+  }
+
+  .product_page .card {
+    height: 425px;
+  }
+
+  .container .card-title {
+    font-size: 17px;
+  }
+
+  .container .product {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .box {
+    width: 35px;
+    height: 35px;
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .header {
+    height: 70px;
+    font-size: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .banner_box {
+    padding: 0 5px;
+  }
+
+  .banner .slide_box {
+    height: 500px;
+  }
+
+  .product .container .card {
+    height: auto !important;
+  }
+
+  .product_page .card {
+    height: auto;
+  }
+
+  .container .card-title {
+    font-size: 16px;
+  }
+
+  .container .product {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .box {
+    width: 30px;
+    height: 30px;
+  }
+  .new_image_1{
+    margin-bottom:100px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    height: 65px;
+    font-size: 0.95rem;
+
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .icons a {
+    font-size: 1rem;
+  }
+
+  .banner_box {
+    padding: 0 10px;
+
+  }
+
+  .banner .slide_box {
+    height: 450px;
+  }
+
+  .product .container .card {
+    height: auto;
+  }
+
+  .product_page .card {
+    height: 340px;
+  }
+
+  .container .card-title {
+    font-size: 15px;
+  }
+
+  .container .product {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .box {
+    width: 25px;
+    height: 25px;
+  }
+  .new_image_1{
+    margin-bottom:140px !important;
+    margin-right:10px;
+  }
+  .new_image_2{
+    margin-right:10px;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    height: 60px;
+    font-size: 0.9rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+
+  .navbar-toggler {
+    font-size: 1.5rem;
+  }
+
+  .icons a {
+    font-size: 0.9rem;
+  }
+
+  .banner_box {
+    padding: 0 10px;
+  }
+
+  .banner .slide_box {
+    height: 450px;
+  }
+
+  .container .card {
+    height: 415px;
+  }
+
+  .container .card-title {
+    font-size: 15px;
+  }
+
+  .container .product {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .box {
+    width: 25px;
+    height: 25px;
+  }
+
+  .product .container {
+    padding: 0 15px;
+  }
+
+  .product .form-control {
+    font-size: 14px;
+  }
+
+  .product .table {
+    font-size: 14px;
+  }
+
+  .product .table img {
+    width: 80px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .header {
+    height: 50px;
+    font-size: 0.8rem;
+  }
+
+  .banner_box {
+    padding: 0 5px;
+  }
+
+  .banner .slide_box {
+    height: 375px;
+  }
+
+  .container .card {
+    height: 450px;
+  }
+
+  .container .card-title {
+    font-size: 13px;
+  }
+
+  .container .product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .box {
+    width: 15px;
+    height: 15px;
+  }
+
+  .product .container {
+    padding: 0 10px;
+  }
+
+  .product .form-control {
+    font-size: 12px;
+  }
+
+  .product .table img {
+    width: 60px;
+  }
+
+}
+
+@media (min-width:376px) and (max-width: 575px) {
+
+  /* .header {
+    height: 40px;
+    font-size: 0.7rem;
+  } */
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .icons a {
+    font-size: 0.8rem;
+  }
+
+  .header {
+    height: 70px;
+  }
+
+  .banner_box {
+    padding: 0;
+  }
+
+  .banner .slide_box {
+    height: 350px;
+  }
+
+  .container .card {
+    height: 450px;
+  }
+
+  .container .card-title {
+    font-size: 13px;
+  }
+
+  .container .product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .box {
+    width: 15px;
+    height: 15px;
+  }
+
+  .footer {
+    padding: 20px 10px;
+  }
+}
+
+
+
+@media (max-width: 375px) {
+  .header {
+    height: 40px;
+    font-size: 0.7rem;
+  }
+
+  .banner_box {
+    padding: 0;
+  }
+
+  .banner .slide_box {
+    height: 350px;
+  }
+
+  .card {
+    height: 320px;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .box {
+    width: 12px;
+    height: 12px;
+  }
+
+}

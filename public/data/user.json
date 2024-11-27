@@ -1,0 +1,71 @@
+{
+  "user": {
+    "id": "1",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1234567890",
+    "profilePicture": "https://example.com/profile-pic.jpg",
+    "addresses": [
+      {
+        "id": "addr1",
+        "type": "shipping",
+        "addressLine1": "123 Main St",
+        "addressLine2": "Apt 4B",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62701",
+        "country": "USA"
+      },
+      {
+        "id": "addr2",
+        "type": "billing",
+        "addressLine1": "456 Elm St",
+        "addressLine2": "",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62702",
+        "country": "USA"
+      }
+    ],
+    "paymentMethods": [
+      {
+        "id": "pm1",
+        "type": "credit_card",
+        "cardNumber": "**** **** **** 1234",
+        "cardHolder": "John Doe",
+        "expiryDate": "12/25"
+      }
+    ],
+    "orders": [
+      {
+        "id": "order1",
+        "date": "2024-09-01",
+        "totalAmount": 99.99,
+        "status": "Shipped",
+        "items": [
+          {
+            "productId": "prod1",
+            "name": "Product 1",
+            "quantity": 1,
+            "price": 49.99
+          },
+          {
+            "productId": "prod2",
+            "name": "Product 2",
+            "quantity": 1,
+            "price": 50.0
+          }
+        ]
+      }
+    ],
+    "wishlist": [
+      {
+        "id": "prod3",
+        "name": "Product 3",
+        "price": 29.99
+      }
+    ],
+    "username": "johndoe",
+    "password": "securepassword"
+  }
+}
